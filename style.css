@@ -1,0 +1,22 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 20px; /* Размер основного шрифта в <p></p>  */
+    -webkit-text-stroke: 1px blue; /* Толщина и цвет обводки */
+    color:black ; /* Цвет основного текста */ 
+    background-image: url('https://i.pinimg.com/originals/70/ac/37/70ac3706f6e0f0ed04b1592aeda574e7.jpg');
+}
+
+selector {
+  background-image: url("https://i.pinimg.com/originals/70/ac/37/70ac3706f6e0f0ed04b1592aeda574e7.jpg"); 
+  background-size: cover;
+}
+h1{
+    animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+  0%   { color: blue; }
+  50%  { color: red; }
+  75% { color: green; }
+  100% {color: blue; }
+ }
